@@ -1,0 +1,15 @@
+1. Auth{reset password: goto .env file mail function}
+2.MiddleWare
+{Route : test,Pagination , Middleware :Test_case , karnel:routeMiddleware, so that it only work with spacific routes }
+3.Eloquent with Model
+{CRUD operation: goto providers work with database}
+4. Socialite with Facebook
+{goto config/service.php, loginController}
+5.Paypal (send money, recv payment Id)
+{
+config:paypal.php, 1
+composer require paypal/rest-api-sdk-php,
+cotroller PaymentController 
+
+
+}
